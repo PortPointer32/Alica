@@ -22,7 +22,7 @@ btn_add_bot = InlineKeyboardButton(text="Добавить бота", callback_da
 btn_card = InlineKeyboardButton(text='Оплата на карту💳', callback_data="card")
 btn_bitcoin = InlineKeyboardButton(text="Bitcoin", callback_data="bitcoin")
 btn_ltc = InlineKeyboardButton(text="Litecoin", callback_data="ltc")
-btn_problems_pay = InlineKeyboardButton(text="Проблемы с оплатой?", url="https://t.me/dogdok45")
+btn_problems_pay = InlineKeyboardButton(text="Проблемы с оплатой?", url="https://t.me/doggok45")
 
 btn_cancel = KeyboardButton("Отмена")
 
