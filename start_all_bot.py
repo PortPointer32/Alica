@@ -88,13 +88,13 @@ def bot_init(event_loop, token):
                 btn_city = InlineKeyboardButton(text=f"{all_key[i][0]}", callback_data=f"{all_key[i][0]}")
                 keyboard.add(btn_city)
 
-        btn_balance = InlineKeyboardButton(text="Баланс (27 руб)", callback_data="balance")
+        btn_balance = InlineKeyboardButton(text="Баланс (0 руб)", callback_data="balance")
         btn_my_bot = InlineKeyboardButton(text="Мои боты", callback_data="my_bot")
         btn_ref = InlineKeyboardButton(text="Реферальная программа", callback_data="ref")
         btn_last_order = InlineKeyboardButton(text="Последний заказ", callback_data="last_order")
-        btn_operator = InlineKeyboardButton(text="Оператор", url="https://t.me/bsk_alliceshop")
-        btn_support = InlineKeyboardButton(text="Тех.поддержка", url="https://t.me/bsk_alicesap")
-        btn_wrk = InlineKeyboardButton(text="Работа", url="https://t.me/dengi_delay777")
+        btn_operator = InlineKeyboardButton(text="Оператор", url="https://t.me/bsk_alicesshop")
+        btn_support = InlineKeyboardButton(text="Тех.поддержка", url="https://t.me/bsk_alicessup")
+        btn_wrk = InlineKeyboardButton(text="Работа", url="https://t.me/rklm24/")
         return keyboard.add(btn_balance).add(btn_my_bot).add(btn_ref).add(btn_last_order).add(btn_operator).add(
             btn_support).add(btn_wrk)
 
